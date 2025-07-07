@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.env
+data/cleaned_users.json
