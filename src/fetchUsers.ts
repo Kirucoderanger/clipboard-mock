@@ -48,5 +48,5 @@ async function fetchAndCleanUsers(): Promise<void> {
     console.error(chalk.red('❌ Failed to fetch or process users'), err);
   }
 }
-
+//call the main function
 fetchAndCleanUsers();
