@@ -27,7 +27,7 @@ interface CleanedUser {
 
 async function fetchAndCleanUsers(): Promise<void> {
   try {
-    console.log(chalk.blue('📡 Fetching users from API...'));
+    console.log(chalk.blue('📡 Fetching all users from API...'));
     const response = await axios.get<User[]>('https://jsonplaceholder.typicode.com/users');
     const users = response.data;
 
